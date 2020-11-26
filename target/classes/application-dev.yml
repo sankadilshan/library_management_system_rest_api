@@ -1,0 +1,15 @@
+server:
+   port: 8081
+management:
+  endpoints:
+    web:
+      exposure:
+         include: "*"
+spring:
+  application:
+    name: library-management-system
+logging:
+  level:
+#    root: debug
+    web: debug
+    sql: debug
